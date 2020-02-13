@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GoViewer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/GoViewer.res" /d "_DEBUG" /d "_AFXDLL" "C:\Users\Kwon\Desktop\기본오목 인터페이스\GoViewer.rc"" 
+Creating temporary file "C:\Users\Kwon\AppData\Local\Temp\RSPD7CB.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/GoViewer.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Kwon\Desktop\기본오목 인터페이스\GoViewer.cpp"
+"C:\Users\Kwon\Desktop\기본오목 인터페이스\GoViewerDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Kwon\AppData\Local\Temp\RSPD7CB.tmp" 
+Creating temporary file "C:\Users\Kwon\AppData\Local\Temp\RSPD7DC.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/GoViewer.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Kwon\Desktop\기본오목 인터페이스\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Kwon\AppData\Local\Temp\RSPD7DC.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/GoViewer.pdb" /debug /machine:I386 /out:"Debug/GoViewer.exe" /pdbtype:sept  ".\Debug\GoViewer.obj" ".\Debug\GoViewerDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\GoViewer.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+GoViewer.cpp
+GoViewerDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+GoViewer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
